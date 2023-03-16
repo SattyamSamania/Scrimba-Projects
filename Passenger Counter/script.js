@@ -12,8 +12,10 @@ function increment() {
 
 
 function save() {
-  // count += 1;
+  
   let countStr = count + " - ";
   saveEl.innerHTML += countStr;
   console.log(count);
+  countEl.textContent =0;
+  count =0;
 }
